@@ -16,7 +16,7 @@
 
         <form action="verificar">
             <fieldset>
-                <label for="n1">Nota 1:<input type="text" id="n1" value="8"/></label>
+                <label for="n1">Nota 1:<input type="text" id="n1" /></label>
                 <label for="n2">Nota 2:<input type="text" id="n2" /></label>
                 <label for="n3">Nota 3:<input type="text" id="n3" /></label>
                 <label for="n4">Nota 4:<input type="text" id="n4" /></label>
@@ -36,23 +36,32 @@
         <p>Média: <span id="media"></span></p>
         <p>Situação: <span id="resultado"></span></p>
     </div>
-
-    <!-- TODO.1: Adicione a referência correta para acessar as funções
-        de cálculo da média. -->
+    
     <script src="./scripts/media.js"> </script>
     <script>
-        /** TODO.2: crie variáveis para armazenar os valores das notas
-            e pesos à partir dos inputs.**/
         let button = document.querySelector("#botao_verificar");
-
         button.addEventListener("click", verificar);
 
+            
         function verificar(){               // TODO.3:
+            let n1 = document.querySelector("#n1").value;
+            let n2 = document.querySelector("#n2").value;
+            let n3 = document.querySelector("#n3").value;
+            let n4 = document.querySelector("#n4").value;
+    
+            let p1 = document.querySelector("#p1").value;
+            let p2 = document.querySelector("#p2").value;
+            let p3 = document.querySelector("#p3").value;
+            let p4 = document.querySelector("#p4").value;
+    
+            let presenca = document.querySelector("#presenca").value;
+            console.log(n1,n2,n3,n4,p1,p2,p3,p4,presenca)
+
             let media = 10;                 // Corrija esta linha..
-            let resultado = "Aprovado";     // ... e esta de modo a realizar
-                                            // o cálculo da média corretamente.         
-            document.querySelector("#media").textContent = media;
-            document.querySelector("#resultado").textContent = resultado;
+        let resultado = "Aprovado";     // ... e esta de modo a realizar
+                                        // o cálculo da média corretamente.         
+        document.querySelector("#media").textContent = media;
+        document.querySelector("#resultado").textContent = resultado;
         }
     </script>
 </body>
