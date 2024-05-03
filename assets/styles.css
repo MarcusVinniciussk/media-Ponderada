@@ -1,5 +1,15 @@
+h1 {
+  text-align: center;
+}
 label {
-  display: block;
+  display: list-item;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 5px;
+}
+body {
+  background: rgb(201,143,233);
+background: linear-gradient(169deg, rgba(201,143,233,1) 39%, rgba(65,212,180,1) 78%);
 }
 
 input {

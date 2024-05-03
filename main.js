@@ -18,7 +18,7 @@ let button = document.querySelector("#botao_verificar");
             let media = calculaMedia(n1.value,n2.value,n3.value,n4.value,p1.value,p2.value,p3.value,p4.value);
             document.querySelector("#media").textContent = media;
 
-            let aprovado = verificaAprovacao(media, presenca)
+            let aprovado = verificaAprovacao(media, presenca.value)
             
             let resultado;
 
