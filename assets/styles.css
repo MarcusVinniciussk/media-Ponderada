@@ -2,16 +2,35 @@ h1 {
   text-align: center;
 }
 label {
-  display: list-item;
-  margin-top: 50px;
-  margin-left: 50px;
-  margin-bottom: 5px;
+  display: flex;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  align-items: stretch;
 }
 body {
-  background: rgb(201,143,233);
 background: linear-gradient(169deg, rgba(201,143,233,1) 39%, rgba(65,212,180,1) 78%);
+color: #ffffff;
+font-family: Tahoma;
+font-size: 16px;
 }
 
 input {
-  margin: 8px;
+  margin: 15px;
+}
+p{
+  text-align: center;
+  text-decoration-color: black;
+}
+form{
+  text-align: center;
+}
+fieldset{
+  border-style: none;
+}
+.passou{
+  background-color: rgb(12, 230, 12);
+}
+.reprovado{
+  background-color: rgb(224, 0, 0);
 }
