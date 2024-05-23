@@ -30,7 +30,14 @@ fieldset{
 }
 .passou{
   background-color: rgb(12, 230, 12);
+  color:rgb(5, 68, 5)
 }
 .reprovado{
   background-color: rgb(224, 0, 0);
+  color:rgb(255, 255, 255)
+}
+@media (max-width: 390px ){
+  html,label,input,p,h1 {
+    font-size: 20px;
+  }
 }
