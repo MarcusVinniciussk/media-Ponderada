@@ -15,10 +15,11 @@ for (let i = x; i <= y; i++){
     linhas[1]
     if (13 % i != 0 || i % 13 != 0) {
         sum =+ i
+        console.log(sum)
     }
     
 }
-console.log(sum)
+// console.log(sum)
 // var input = require('fs').readFileSync('/dev/stdin', 'utf8');
 // const linhas = input.trim().split('\n')
 // let numeros = linhas[0].split(" ")
