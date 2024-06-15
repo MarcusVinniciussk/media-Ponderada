@@ -1,7 +1,4 @@
-6
-Educacao Fisica
-Artes Cenicas
-Biblioteconomia
-Filosofia
-Servico Social
-Algum Curso de humanas aleatorio
+5 4
+7 2
+3 8
+2 2
